@@ -1,6 +1,6 @@
 (function() {
     var durlyParmaString = document
-        .getElementById("adchoice")
+        .getElementById("evidon-vpaid")
         .src.split("?")[1];
     var adIFrame = window.frameElement;
     var durlyScript = document.createElement("SCRIPT");
