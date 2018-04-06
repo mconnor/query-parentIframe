@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Production test of vpaid script</title>
+    <style>
+        .floating-box {
+            display: inline-block;
+            margin: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Production test of vpaid script</h1>
+
+
+
+    <div class="floating-box">
+        <h1>top-left</h1>
+        <iframe src="./production-top-left.html" title="top-left" width="400" height="300">
+        </iframe>
+        <h1>top-right</h1>
+        <iframe src="./production-top-right.html" title="top-right" width="400" height="300">
+        </iframe>
+    </div>
+
+
+    <div class="floating-box">
+        <h1>bottom-left</h1>
+        <iframe src="./production-bottom-left.html" title="bottom-left" width="400" height="300">
+        </iframe>
+        <h1>bottom-right</h1>
+        <iframe src="./production-bottom-right.html" title="bottom-right" width="400" height="300">
+        </iframe>
+    </div>
+    <div class="floating-box">
+        <h1>improper tag</h1>
+        <iframe src="./production-top-left-xxx.html" title="improper tag" width="400" height="300">
+        </iframe>
+
+
+</body>
+
+</html>
